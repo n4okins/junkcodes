@@ -11,5 +11,5 @@ while True:
     q.append(random.choice(src))
     text = "".join(q)
     print(text, end="")
-    if text.endswith("しかのこのこのここしたんたん"):
+    if text.endswith("しかのこのこのここしたんたん" * 3):
         break
